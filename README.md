@@ -12,3 +12,17 @@ Kony Visualizer will not build if any of the folders that get created by default
 By contrast Git does not version empty folders because it really only stores files. So when pushing to a Git repository, any empty folders will be ignored. One solution is to add a .gitignore file to any empty folder required for Visualizer to build. This will force Git to push these folders to the remote.
 
     find . -type d -empty -exec touch {}/.gitignore \;
+
+## To Do
+
+Check whether the following files and directories can be safely ignored without breaking a project.
+- Files
+  - .project
+  - .webmeta
+  - ant-contrib-0.6.jar
+  - run.bat
+  - run.sh
+- Directories
+  - annotations
+  - collections
+  - resources/build
