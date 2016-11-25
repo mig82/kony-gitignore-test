@@ -1,5 +1,11 @@
 # kony-gitignore-test
 
+## Where to Clone
+
+Kony Visualizer requires the root directory of every project to match the project's name. So when cloning a repository make sure you do it into a directory named after the Visualizer project. Also, bear in mind, Kony Visualizer doesn't allow project names to contain special characters such as hyphens '-'. So for a project called "KonyProject" you'd use something like:
+
+    git clone https://github.com/mig82/kony-project.git KonyProject
+
 ## The Empty Folder Problem
 
 Kony Visualizer will not build if any of the folders that get created by default with any new project are missing.
