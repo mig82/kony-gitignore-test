@@ -1,0 +1,13 @@
+# Auto-generated javascript files.
+jssrc
+
+# The default location where apk and kar files are placed when doing a headless build.
+binaries
+*.apk
+*.KAR
+
+# TO-DO: Verify these
+# .webmeta
+# annotations
+# ant-contrib-0.6.jar
+# web_module/*
